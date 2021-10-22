@@ -1,2 +1,32 @@
 - initialiser un repo local avec la branche main plutôt que master (par défaut):
 git init -b main
+
+- ajouter des élements à l'index du repo pour un commit ultérieur,
+  penser à capturer les derniers changements [git add + git commit)] si on modifie les fichiers suivis:
+
+git add <nom du fichier> (ou git add . pour tous les éléments du dossier)
+
+- obtenir le statut d'un repo (commit et fichiers suivis) :
+
+git status
+
+- supprimer des éléments du tracking :
+
+git reset <nom du fichier>
+
+- capturer l'état d'avancement des fichiers (doivent être ajoutés avec 'add' sinon commit sans effet) :
+
+git commit -m "contexte du commit"
+
+- re visiter les commits :
+
+git log
+
+créer un repo distant en CLI:
+
+gh repo create <nom du repo>
+
+-transférer les éléments trackés du repo local (git) vers le repo distant (github ou autre)
+ en général, on utilise le nom origin comme alias du repo distant mais ici, github-repo sera utilisé :
+
+git remote add github-repo https://github.com/Bweebo/git-practice
