@@ -30,3 +30,9 @@ gh repo create <nom du repo>
  en général, on utilise le nom origin comme alias du repo distant mais ici, github-repo sera utilisé :
 
 git remote add github-repo https://github.com/Bweebo/git-practice
+
+- en cas de désynchro (nvx commits entre différentes étapes)
+git pull --rebase https://github.com/Bweebo/git-practice
+
+puis :
+git push origin main
