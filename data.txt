@@ -36,3 +36,7 @@ git pull --rebase https://github.com/Bweebo/git-practice
 
 puis :
 git push origin main
+
+- modifier le dernier contenu du message d'un commit :
+
+git commit --amend -m "ajout de la commande git pull rebase"
