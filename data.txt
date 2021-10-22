@@ -1,0 +1,2 @@
+- initialiser un repo local avec la branche main plutôt que master (par défaut):
+git init -b main
