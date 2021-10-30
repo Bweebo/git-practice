@@ -40,3 +40,5 @@ git push origin main
 - modifier le dernier contenu du message d'un commit :
 
 git commit --amend -m "ajout de la commande git pull rebase"
+
+- git commit -m "ajout d'un fichier .gitignore et actualisation du fichier data.txt"
